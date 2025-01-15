@@ -21,7 +21,7 @@ async def main():
                 print(f'{book[i].text}\n'
                       f'{price[i].text}\n'
                       f'{stock[i].text}\n'
-                      f'{photo[i].get('content')}\n'
+                      f'{photo[i].get('src')}\n'
                       f'-------------------------------------')
 
 
